@@ -1,4 +1,4 @@
-const BASE_URL = "http://api.weatherapi.com/v1/current.json?key=6a231fe301384b7fbc373330240209&q=New Delhi&aqi=no";
+const BASE_URL = "https://api.weatherapi.com/v1/current.json?key=6a231fe301384b7fbc373330240209&q=New Delhi&aqi=no";
 
 
 const search = document.querySelector(".search-area");
@@ -14,7 +14,7 @@ form.addEventListener("submit", searchForLocation)
 
 
 const fetchresult = async (targetlocation) => {
-    let url = `http://api.weatherapi.com/v1/current.json?key=6a231fe301384b7fbc373330240209&q=${targetlocation}&aqi=no`;
+    let url = `https://api.weatherapi.com/v1/current.json?key=6a231fe301384b7fbc373330240209&q=${targetlocation}&aqi=no`;
 
     const response = await fetch(url);
     const data =  await response.json();
