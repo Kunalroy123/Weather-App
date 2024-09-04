@@ -9,9 +9,9 @@ const date = document.querySelector(".date");
 const weather = document.querySelector(".weather");
 
 
-document.addEventListener('DOMContentLoaded', function(){
-    fetchresult("New Delhi")
-})
+window.onload = function(){
+    fetchresult("New Delhi");
+}
 
 form.addEventListener("submit", (evt) => {
     evt.preventDefault()
