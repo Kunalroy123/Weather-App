@@ -71,7 +71,7 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.5rem;
+    font-size: 2rem;
     height: 48vh;
 }
 
@@ -85,7 +85,7 @@ body{
 }
 
 .temp{
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding: 0 0 20px 0px;
     height: 3rem;
 }
@@ -101,12 +101,6 @@ body{
 .condition{
     font-size: 2rem;
     
-}
-
-@media only screen and (min-width: 200px) and (max-width: 400px){
-    .condition{
-        line-height: 1rem;
-    }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 400px){
